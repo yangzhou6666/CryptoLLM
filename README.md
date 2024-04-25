@@ -24,14 +24,14 @@ The following is the workflow of CryptoLLM:
 pip install -r requirements.txt
 ```
 
-2. To decompile the APK, you have to install [Jadx](https://github.com/skylot/jadx), a tool that requires JDK 11 or higher to run, in `./tool`.
+2. To decompile the APK, you have to install [Jadx](https://github.com/skylot/jadx), a tool that requires JDK 11 or higher to run, in `tool/`.
 
 
 
 ## Model
 We use four models (**CodeBERT-base**, **CodeGPT-small**, **CodeT5-small**, **ELECTRA-base**) in our experiments.
 
-You can train the models and apply them to CryptoLLM.
+You can train these models and apply them to CryptoLLM.
 
 ### Dataset
 * Original Dataset: 17,661 (benign: 8,689/misuse: 8,972)
@@ -63,3 +63,19 @@ sh test_<model>.sh
 
 
 ## How to Run
+You can easily use CryptoLLM. To run CryptoLLM, do as follows:
+
+1. You can change the parameters of `tool/run.sh` to suit your needs. The file is structured as follows:
+```
+python ./main.py \
+    --f="../sample_apk" \  # The path to the target apk file folder
+    --o="../sample_apk_result" \  # The path to output folder
+    --p="./CryptoLLM_codet5.bin" \  # The path of trained model
+    --m="codet5"  # The model type to use
+```
+
+2. Once the settings are complete, just run it.
+```
+cd tool
+sh run.sh
+```
