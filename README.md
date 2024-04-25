@@ -65,7 +65,7 @@ sh test_<model>.sh
 ## How to Run
 You can easily use CryptoLLM. To run CryptoLLM, do as follows:
 
-1. You can change the parameters of `tool/run.sh` to suit your needs. The file is structured as follows:
+1. You can change the parameters of `tool/run.sh` to suit your needs. If you run it with default settings, you will get results for the sample apk. The file is structured as follows:
 ```
 python main.py \
     --f="../sample_apk" \  # The path to the target apk file folder
@@ -78,4 +78,13 @@ python main.py \
 ```
 cd tool
 sh run.sh
+```
+
+
+## Output
+You can see that the following results exist in the specified output folder. The result appears as *file path* -> *result*. An example is as follows:
+```
+com/example/brokencryptoabpscase4/BrokenCryptoABPSCase4.java -> b
+com/example/ecbinsymmcryptocorrected/EcbInSymmCryptoCorrected.java -> b
+com/example/insecureasymmetriccipherabicase2/InsecureAsymmetricCipherABICase2.java -> m
 ```
