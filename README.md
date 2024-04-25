@@ -67,7 +67,7 @@ You can easily use CryptoLLM. To run CryptoLLM, do as follows:
 
 1. You can change the parameters of `tool/run.sh` to suit your needs. The file is structured as follows:
 ```
-python ./main.py \
+python main.py \
     --f="../sample_apk" \  # The path to the target apk file folder
     --o="../sample_apk_result" \  # The path to output folder
     --p="./CryptoLLM_codet5.bin" \  # The path of trained model
