@@ -1,6 +1,6 @@
 # CryptoLLM
 
-This repository contains the PyTorch implementation of **"CryptoLLM: Harnessing the Power of LLMs to Detect Cryptographic API Misuse"**
+Document for paper *CryptoLLM: Harnessing the Power of LLMs to Detect Cryptographic API Misuse*, accepted to the European Symposium on Research in Computer Security (ESORICS) 2024, Bydgoszcz, Poland.
 
 
 ## Introduction
