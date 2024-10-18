@@ -88,3 +88,17 @@ com/example/brokencryptoabpscase4/BrokenCryptoABPSCase4.java -> b
 com/example/ecbinsymmcryptocorrected/EcbInSymmCryptoCorrected.java -> b
 com/example/insecureasymmetriccipherabicase2/InsecureAsymmetricCipherABICase2.java -> m
 ```
+
+
+## Citation
+
+```tex
+@inproceedings{baek2024cryptollm,
+  title={CryptoLLM: Harnessing the Power of LLMs to Detect Cryptographic API Misuse},
+  author={Baek, Heewon and Lee, Minwook and Kim, Hyoungshick},
+  booktitle={European Symposium on Research in Computer Security},
+  pages={353--373},
+  year={2024},
+  organization={Springer}
+}
+```
