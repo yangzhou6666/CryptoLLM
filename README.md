@@ -7,7 +7,7 @@ Document for paper *CryptoLLM: Harnessing the Power of LLMs to Detect Cryptograp
 This code allows you to run CryptoLLM, a cryptographic API misuse detection tool.
 
 The following is the workflow of CryptoLLM:
-<p align="center"><img src="./overview.png" width="800"></p>
+<p align="center"><img src="./overview.png"></p>
 
 
 ## Requirements
