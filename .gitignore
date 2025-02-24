@@ -1,0 +1,31 @@
+train/benchmarks/benchmarks_venv/
+train/benchmarks/owasp
+# Byte-compiled files / libraries
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment folders
+venv/
+.venv/
+env/
+.env/
+
+# Cache directories
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Others
+*.egg
+*.manifest
+*.spec
+
+# Macos
+.DS_Store
